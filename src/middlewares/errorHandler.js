@@ -8,7 +8,7 @@ export function notFound(req, res) {
 }
 
 export function errorHandler(err, req, res, next) {
-  const status = Number(err.status ?? 500);
+  const status = Number(err.statusCode ?? err.status ?? 500);
   const code = err.code ?? "INTERNAL_ERROR";
   const message = status >= 500 ? "Error interno del servidor" : err.message;
 
