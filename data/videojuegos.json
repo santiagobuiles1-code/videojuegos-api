@@ -1,0 +1,18 @@
+[
+  {
+    "id": "VGM-001",
+    "title": "Hollow Knight",
+    "platform": "PC",
+    "genre": "Metroidvania",
+    "status": "completed",
+    "rating": 5
+  },
+  {
+    "id": "VGM-002",
+    "title": "Minecraft",
+    "platform": "Multiplataforma",
+    "genre": "Sandbox",
+    "status": "playing",
+    "rating": 4
+  }
+]
