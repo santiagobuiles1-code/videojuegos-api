@@ -14,5 +14,13 @@
     "genre": "Sandbox",
     "status": "playing",
     "rating": 4
+  },
+  {
+    "id": "VGM-003",
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "platform": "Nintendo",
+    "genre": "Aventura",
+    "status": "pending",
+    "rating": 5
   }
 ]
