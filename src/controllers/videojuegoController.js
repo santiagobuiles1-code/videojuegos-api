@@ -27,6 +27,15 @@ export async function createVideojuego(req, res, next) {
   }
 }
 
+export async function updateVideojuego(req, res, next) {
+  try {
+    const juegoActualizado = await videojuegoService.update(req.params.id, req.body);
+    res.status(200).json({ data: juegoActualizado });
+  } catch (error) {
+    next(error);
+  }
+}
+
 export async function deleteVideojuego(req, res, next) {
   try {
     await videojuegoService.remove(req.params.id);

@@ -3,7 +3,7 @@ import {
   listVideojuegos,
   getVideojuego,
   createVideojuego,
-  updateVideojuego, // <--- 1. Asegúrate de importarlo
+  updateVideojuego,
   deleteVideojuego
 } from "../controllers/videojuegoController.js";
 
